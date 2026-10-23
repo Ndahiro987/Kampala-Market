@@ -1,0 +1,69 @@
+# Kampala Digital Market — .gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.csproj.user
+
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.turbo/
+
+# .NET
+bin/
+obj/
+*.user
+*.userprefs
+*.cache
+[!e]*.nupkg
+The nuget.targets
+publish/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.dart_tool/
+build/
+*.iml
+.android/
+.ios/
+
+# Next.js
+.next/
+out/
+build/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+secrets.json
+appsettings.Development.json
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Misc
+coverage/
+.nyc_output/
+*.svg.cache
+dist/
